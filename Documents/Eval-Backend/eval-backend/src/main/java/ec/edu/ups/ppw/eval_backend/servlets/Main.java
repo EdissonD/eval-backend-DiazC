@@ -1,4 +1,4 @@
-package ec.edu.ups.ppw.servlets;
+package ec.edu.ups.ppw.eval_backend.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
