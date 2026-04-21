@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="475C54AE-3D75-3617-E73F-9C64C40EA392" name="Lib_perorocnco">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-21 13:59:37 UTC</createdTime>
+<ownerDesignName>tarealibros</ownerDesignName>
+<engineerTo>
+<item key="0A100290-056C-0C43-8B2B-4B84E5DC9144" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tarealibros" id="91BE432A-5A6F-CA09-027C-C5F2554EFD4D" version="3.5">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-21 13:55:35 UTC</createdTime>
+<ownerDesignName>tarealibros</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91BE432A-5A6F-CA09-027C-C5F2554EFD4D</designId>
+</OSDM_Design>
