@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E4A0D11-B04B-8343-22D2-AEF7E640DC58" name="GV_RESERVA">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:11:19 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="res_codigo" id="B2319696-0339-301F-AAFF-4A9B4518F36F">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo del a reserva del hotel ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_fecha_creacin" id="89F67C5D-244D-FF7E-5820-8F8DCDC2CB1E">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de emison de la reserva]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_check_in" id="E7C469C3-A52F-4B0B-C3DA-FC36B2BAC8C8">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[check in de la llegada]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_check_out" id="9063BBE3-0779-915E-C770-591B9564258E">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[check out de la salida ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_num_huespedes" id="4136644A-6A5E-BBC4-8A80-6F7487C7A4DD">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero de huspedes que estaran en le hotel]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_subtotal" id="DD6CB6B5-C943-7B42-9D9F-AD05ED19F9A7">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:13:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[subtotal del tiempo que esten hospedados ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_iva" id="46B32DEA-414B-9B6D-ACE5-F8785D7A84CB">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:27:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[valor de impuesto directo por el consumo de vienes y servicos]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_total" id="EE3877F9-CAD4-D2C8-1516-4C1B25AF11EB">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:27:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[total de consumo ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F423168-53E8-09A3-56AC-AB276B238075" name="GV_RESERVA PK">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 13:17:13 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2319696-0339-301F-AAFF-4A9B4518F36F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

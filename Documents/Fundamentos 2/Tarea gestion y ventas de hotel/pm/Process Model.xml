@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2C8E590B-CAE6-D212-6899-524D66D20561">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:35:20 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

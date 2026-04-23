@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tarea gestion y ventas de hotel" id="4C308D46-30E6-1347-4FC1-A7BD8B4E6FCC" version="3.5">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:35:20 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4C308D46-30E6-1347-4FC1-A7BD8B4E6FCC</designId>
+</OSDM_Design>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802BED42-0744-1295-93A2-3C2737E41CD3" name="GV_HOTEL">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:38:41 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ho_codigo" id="06D2222F-E9F2-F4BC-DDB6-6232B8879216">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico el cual esta regisstrado el hotel ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_ciudad" id="27475B32-81FE-D2CF-C1FB-E024A6A6816B">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[ciudad donde se encuentra ubicada o situada el hotel]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_ruc" id="A90BBB77-43EF-DA13-676C-E8A934664B1F">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[numeor el cual identifica a persona natural ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_nombre_empresarial" id="7A7701D1-9CB8-F79F-FD92-46FD57D52EFC">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre en cual se identifica el hotel de manera empresarial ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_direccion" id="03FD8FF7-07CC-3691-1F37-948DBC8A5D2A">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección en donde se encuentra ubicado el hotel]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_telefono" id="FB4269D0-EDBC-5ACE-A8DE-EE2F22726D25">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[telefono privado del hotel ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ho_fecha_inaguracion" id="14A28FDF-E657-58BF-A835-0C5AE907D3B2">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:52:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha cuadno fue inagurada el hotel ]]></commentInRDBMS>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1198297B-F004-6D67-590B-DDD05BA34124" name="GV_HOTEL PK">
+<createdBy>Cyborg 15</createdBy>
+<createdTime>2026-04-23 12:41:12 UTC</createdTime>
+<ownerDesignName>Tarea gestion y ventas de hotel</ownerDesignName>
+<engineerTo>
+<item key="7858D5F4-19D1-6B90-8C84-9DE23054B762" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06D2222F-E9F2-F4BC-DDB6-6232B8879216</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
